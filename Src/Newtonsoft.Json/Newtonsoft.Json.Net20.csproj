@@ -9,8 +9,8 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
-    <SignAssembly>false</SignAssembly>
+    <AssemblyName>RecordLion.Newtonsoft.Json</AssemblyName>
+    <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <SccProjectName>
@@ -49,10 +49,10 @@
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\Net20\</OutputPath>
     <IntermediateOutputPath>obj\Debug\Net20\</IntermediateOutputPath>
-    <DefineConstants>TRACE;DEBUG;NET20</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NET20</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Net20\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Net20\RecordLion.Newtonsoft.Json.xml</DocumentationFile>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRules>
     </CodeAnalysisRules>
@@ -63,10 +63,10 @@
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\Net20\</OutputPath>
     <IntermediateOutputPath>obj\Release\Net20\</IntermediateOutputPath>
-    <DefineConstants>TRACE;NET20</DefineConstants>
+    <DefineConstants>TRACE;CODE_ANALYSIS;NET20</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Net20\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Net20\RecordLion.Newtonsoft.Json.xml</DocumentationFile>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>

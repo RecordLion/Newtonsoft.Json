@@ -9,10 +9,9 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
-    <SignAssembly>false</SignAssembly>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyName>RecordLion.Newtonsoft.Json</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Dynamic.snk</AssemblyOriginatorKeyFile>
     <SccProjectName>
     </SccProjectName>
     <SccLocalPath>
@@ -51,10 +50,10 @@
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\Net40\</OutputPath>
     <IntermediateOutputPath>obj\Debug\Net40\</IntermediateOutputPath>
-    <DefineConstants>TRACE;DEBUG;NET40;CODE_ANALYSIS</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NET40;CODE_ANALYSIS;SIGNED</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Net40\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Net40\RecordLion.Newtonsoft.Json.xml</DocumentationFile>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRules>
     </CodeAnalysisRules>
@@ -66,10 +65,10 @@
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\Net40\</OutputPath>
     <IntermediateOutputPath>obj\Release\Net40\</IntermediateOutputPath>
-    <DefineConstants>TRACE;NET40;CODE_ANALYSIS</DefineConstants>
+    <DefineConstants>TRACE;NET40;CODE_ANALYSIS;SIGNED</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Net40\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Net40\RecordLion.Newtonsoft.Json.xml</DocumentationFile>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <RunCodeAnalysis>true</RunCodeAnalysis>
